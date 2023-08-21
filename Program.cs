@@ -18,7 +18,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+// Authorizes a user to access secure resources. This app doesn't use authorization, therefore this line could be removed.
+// app.UseAuthorization();
 
 app.MapRazorPages();
 
